@@ -1,0 +1,15 @@
+# Requirements for Innov.Lib.Rbac FastAPI example application
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Or install the library directly from the parent directory:
+#   pip install -e ..
+
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+innov-lib-rbac>=1.0.0
+
+# Optional: For production JWT validation (see IMPLEMENTATION_GUIDE.md)
+# python-jose[cryptography]>=3.3.0
+# cryptography>=41.0.0
